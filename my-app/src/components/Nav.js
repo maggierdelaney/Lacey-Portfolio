@@ -3,26 +3,25 @@ import './pages/style.css';
 
 function Nav({ currentPage, handlePageChange }) {
     return (
-        <nav class="navbar navbar-dark bg-dark fixed-top">
+        <nav class="navbar bg-body-tertiary fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Lacey March Interior Design Portfolio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#home">Lacey Marsh Interior Design</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Navigation</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#home"
-                                    onClick={() => handlePageChange('Home')}
+                                <a class="nav-link active" aria-current="page" href="#home" onClick={() => handlePageChange('Home')}
                                     className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#moods" onClick={() => handlePageChange('Concepts')}
+                                <a class="nav-link" href="#moods" onClick={() => handlePageChange('Moods')}
                                     className={currentPage === 'Moods' ? 'nav-link active' : 'nav-link'}>Mood Boards</a>
                             </li>
                             <li class="nav-item">
@@ -49,10 +48,14 @@ function Nav({ currentPage, handlePageChange }) {
                                 <a class="nav-link" href="#about" onClick={() => handlePageChange('About')}
                                     className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#concepts" onClick={() => handlePageChange('Concepts')}
+                                    className={currentPage === 'Concepts' ? 'nav-link active' : 'nav-link'}>Concepts</a>
+                            </li>
                         </ul>
                         <form class="d-flex mt-3" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-                            <button class="btn btn-success" type="submit">Search</button>
+                                <button class="btn btn-outline-success" type="submit">Search</button>
                         </form>
                     </div>
                 </div>
@@ -62,6 +65,3 @@ function Nav({ currentPage, handlePageChange }) {
 }
 
 export default Nav;
-
-
-
