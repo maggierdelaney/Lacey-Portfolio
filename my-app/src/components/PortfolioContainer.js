@@ -30,8 +30,8 @@ import './pages/style.css';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
   const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
+    if (currentPage === 'About') {
+      return <About />;
     }
     if (currentPage === 'Concepts') {
       return <Concepts />;
@@ -93,7 +93,7 @@ export default function PortfolioContainer() {
       if (currentPage === 'Vignette') {
         return <Vignette />;
       }
-    return <About />;
+    return <Home />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
