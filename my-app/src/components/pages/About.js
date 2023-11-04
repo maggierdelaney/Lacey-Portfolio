@@ -16,8 +16,8 @@ export default function About() {
             <p className="paragraph-font">My true passion lies with hospitality, however, I look forward to learning more about this industry from both a commercial and residential aspect. I am open to opportunity wherever it may arise!</p>
             <p className="paragraph-font">I am based in Chandler, AZ. For inquiries, feel free to contact me below.</p>
           </div>
-          <div class="col">
-            <img src={require("../images/aboutMePortrait.jpeg")} className="bg-img" className="img-fluid" alt="Responsive image"></img>
+          <div className="col">
+              <img src={require("../images/aboutMePortrait.jpeg")} className="bg-img img-fluid" alt="Your Image Description"></img>
           </div>
         </div>
       </div>
