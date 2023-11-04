@@ -85,7 +85,7 @@ function Nav({ currentPage, handlePageChange }) {
                                     </li>
                                     <li>
                                         <a className="dropdown-item" href="#manageroffice" onClick={() => handlePageChange('ManagerOffice')}
-                                            className={currentPage === 'ManagerOffice' ? 'nav-link active' : 'nav-link'}>MANAGER OFFICE</a>
+                                            className={currentPage === 'ManagerOffice' ? 'nav-link active' : 'nav-link'}>MANAGER'S OFFICE</a>
                                     </li>
                                     <li>
                                         <a className="dropdown-item" href="#publiclibrary" onClick={() => handlePageChange('PublicLibrary')}
