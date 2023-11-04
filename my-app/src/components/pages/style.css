@@ -1,3 +1,33 @@
 .jumbotron {
     text-align: center; /* Center the text within the Jumbotron */
 }
+
+#navbarSupportedContent {
+    justify-content: center;
+    align-items: center;
+  }
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+#intro-text {
+    text-align: left;
+}
+
+.black-line {
+    border: none;
+    border-top: 1px solid black;
+}
+
+#cad-text {
+    text-align: center;
+}
