@@ -5,14 +5,14 @@ export default function ManagerOffice() {
   return (
     <div>
       <br></br>
-      <h1>MANAGER'S OFFICE</h1>
+      <h1 className="title-font">MANAGER'S OFFICE</h1>
       <br></br>
       <div class="container text-center">
         <div class="row">
           <div class="col">
-            <p id="cad-text">ARC 142 - CAD PLANS & ELEVATIONS</p>
-            <p id="cad-text">COMPLETED MAY, 2023</p>
-            <p id="cad-text">*ALL WORK REPRESENTED IS FOR EDUCATIONAL PURPOSES ONLY</p>
+            <p className="paragraph-font" id="cad-text">ARC 142 - CAD PLANS & ELEVATIONS</p>
+            <p className="paragraph-font" id="cad-text">COMPLETED MAY, 2023</p>
+            <p className="paragraph-font" id="cad-text">*ALL WORK REPRESENTED IS FOR EDUCATIONAL PURPOSES ONLY</p>
           </div>
         </div>
       </div>
@@ -24,9 +24,9 @@ export default function ManagerOffice() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>COVER SHEET</h2>
+            <h2 className="title-font">COVER SHEET</h2>
             <br></br>
-            <p>DEVELOPED IN SKETCHUP</p>
+            <p className="paragraph-font">DEVELOPED IN SKETCHUP</p>
           </div>
         </div>
         <br></br>
@@ -36,9 +36,9 @@ export default function ManagerOffice() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>FLOOR PLAN</h2>
+            <h2 className="title-font">FLOOR PLAN</h2>
             <br></br>
-            <p>DEVELOPED IN AUTOCAD</p>
+            <p className="paragraph-font">DEVELOPED IN AUTOCAD</p>
           </div>
         </div>
         <br></br>
@@ -48,9 +48,9 @@ export default function ManagerOffice() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>REFLECTED CEILING PLAN</h2>
+            <h2 className="title-font">REFLECTED CEILING PLAN</h2>
             <br></br>
-            <p>DEVELOPED IN AUTOCAD</p>
+            <p className="paragraph-font">DEVELOPED IN AUTOCAD</p>
           </div>
         </div>
         <br></br>
@@ -60,9 +60,9 @@ export default function ManagerOffice() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>ELEVATIONS</h2>
+            <h2 className="title-font">ELEVATIONS</h2>
             <br></br>
-            <p>DEVELOPED IN AUTOCAD</p>
+            <p className="paragraph-font">DEVELOPED IN AUTOCAD</p>
           </div>
         </div>
         <br></br>
@@ -72,9 +72,9 @@ export default function ManagerOffice() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>SECTION</h2>
+            <h2 className="title-font">SECTION</h2>
             <br></br>
-            <p>DEVELOPED IN AUTOCAD</p>
+            <p className="paragraph-font">DEVELOPED IN AUTOCAD</p>
           </div>
         </div>
         <br></br>
@@ -84,9 +84,9 @@ export default function ManagerOffice() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>FURNITURE PLAN</h2>
+            <h2 className="title-font">FURNITURE PLAN</h2>
             <br></br>
-            <p>DEVELOPED IN AUTOCAD</p>
+            <p className="paragraph-font">DEVELOPED IN AUTOCAD</p>
           </div>
         </div>
         <br></br>
@@ -96,9 +96,9 @@ export default function ManagerOffice() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>ELECTRICAL PLAN</h2>
+            <h2 className="title-font">ELECTRICAL PLAN</h2>
             <br></br>
-            <p>DEVELOPED IN AUTOCAD</p>
+            <p className="paragraph-font">DEVELOPED IN AUTOCAD</p>
           </div>
         </div>
         <br></br>

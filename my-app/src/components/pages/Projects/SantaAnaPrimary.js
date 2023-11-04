@@ -5,14 +5,14 @@ export default function SantaAnaPrimary() {
   return (
     <div>
       <br></br>
-      <h1>SANTA ANA PRIMARY BEDROOM</h1>
+      <h1 className="title-font">SANTA ANA PRIMARY BEDROOM</h1>
       <br></br>
       <div class="container text-center">
         <div class="row">
           <div class="col">
-            <p id="cad-text">INT 105 - INTRODUCTION TO INTERIOR DESIGN</p>
-            <p id="cad-text">COMPLETED MAY 09, 2022</p>
-            <p id="cad-text">*ALL WORK REPRESENTED IS FOR EDUCATIONAL PURPOSES ONLY</p>
+            <p className="paragraph-font" id="cad-text">INT 105 - INTRODUCTION TO INTERIOR DESIGN</p>
+            <p className="paragraph-font" id="cad-text">COMPLETED MAY 09, 2022</p>
+            <p className="paragraph-font" id="cad-text">*ALL WORK REPRESENTED IS FOR EDUCATIONAL PURPOSES ONLY</p>
           </div>
         </div>
       </div>
@@ -24,9 +24,9 @@ export default function SantaAnaPrimary() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>CONCEPT</h2>
+            <h2 className="title-font">CONCEPT</h2>
             <br></br>
-            <p>DEVELOPED IN INDESIGN</p>
+            <p className="paragraph-font">DEVELOPED IN INDESIGN</p>
           </div>
         </div>
         <br></br>
@@ -36,9 +36,9 @@ export default function SantaAnaPrimary() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>FLOOR PLAN</h2>
+            <h2 className="title-font">FLOOR PLAN</h2>
             <br></br>
-            <p>DEVELOPED IN ILLUSTRATOR</p>
+            <p className="paragraph-font">DEVELOPED IN ILLUSTRATOR</p>
           </div>
         </div>
         <br></br>
@@ -48,9 +48,9 @@ export default function SantaAnaPrimary() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>ELECRTICAL PLAN</h2>
+            <h2 className="title-font">ELECRTICAL PLAN</h2>
             <br></br>
-            <p>FREEHAND DRAWING</p>
+            <p className="paragraph-font">FREEHAND DRAWING</p>
           </div>
         </div>
         <br></br>
@@ -60,9 +60,9 @@ export default function SantaAnaPrimary() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>ELEVATION</h2>
+            <h2 className="title-font">ELEVATION</h2>
             <br></br>
-            <p>FREEHAND DRAWING</p>
+            <p className="paragraph-font">FREEHAND DRAWING</p>
           </div>
         </div>
         <br></br>
@@ -72,9 +72,9 @@ export default function SantaAnaPrimary() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>FURNITURE</h2>
+            <h2 className="title-font">FURNITURE</h2>
             <br></br>
-            <p>DEVELOPED IN ILLUSTRATOR</p>
+            <p className="paragraph-font">DEVELOPED IN ILLUSTRATOR</p>
           </div>
         </div>
         <br></br>

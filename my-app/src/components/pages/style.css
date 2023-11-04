@@ -1,3 +1,20 @@
+.display-4 {
+    font-family: 'Staatliches', sans-serif;
+}
+
+.title-font {
+    font-family: 'Staatliches', sans-serif;
+}
+
+.paragraph-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 .jumbotron {
     text-align: center; /* Center the text within the Jumbotron */
 }
@@ -7,6 +24,7 @@
     align-items: center;
   }
 
+/*font style for titles included for h1 and h2*/
 h1 {
     text-align: center;
 }

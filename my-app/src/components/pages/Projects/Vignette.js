@@ -5,14 +5,14 @@ export default function Vignette() {
   return (
     <div>
       <br></br>
-      <h1>VIGNETTE</h1>
+      <h1 className="title-font">VIGNETTE</h1>
       <br></br>
       <div class="container text-center">
         <div class="row">
           <div class="col">
-            <p id="cad-text">INT 145 - DRAWING AND SKETCHING</p>
-            <p id="cad-text">COMPLETED JULY, 2023</p>
-            <p id="cad-text">*ALL WORK REPRESENTED IS FOR EDUCATIONAL PURPOSES ONLY</p>
+            <p className="paragraph-font" id="cad-text">INT 145 - DRAWING AND SKETCHING</p>
+            <p className="paragraph-font" id="cad-text">COMPLETED JULY, 2023</p>
+            <p className="paragraph-font" id="cad-text">*ALL WORK REPRESENTED IS FOR EDUCATIONAL PURPOSES ONLY</p>
           </div>
         </div>
       </div>
@@ -24,9 +24,9 @@ export default function Vignette() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>IMAGE BOARD</h2>
+            <h2 className="title-font">IMAGE BOARD</h2>
             <br></br>
-            <p>DEVELOPED IN INDESIGN</p>
+            <p className="paragraph-font">DEVELOPED IN INDESIGN</p>
           </div>
         </div>
         <br></br>
@@ -36,9 +36,9 @@ export default function Vignette() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>PLAN VIEW</h2>
+            <h2 className="title-font">PLAN VIEW</h2>
             <br></br>
-            <p>SKETCHUP WIREFRAME</p>
+            <p className="paragraph-font">SKETCHUP WIREFRAME</p>
           </div>
         </div>
         <br></br>
@@ -48,9 +48,9 @@ export default function Vignette() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>ELEVATIONS</h2>
+            <h2 className="title-font">ELEVATIONS</h2>
             <br></br>
-            <p>SKETCHUP WIREFRAME</p>
+            <p className="paragraph-font">SKETCHUP WIREFRAME</p>
           </div>
         </div>
         <br></br>
@@ -60,9 +60,9 @@ export default function Vignette() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>PERSPECTIVE</h2>
+            <h2 className="title-font">PERSPECTIVE</h2>
             <br></br>
-            <p>SKETCHUP WIREFRAME</p>
+            <p className="paragraph-font">SKETCHUP WIREFRAME</p>
           </div>
         </div>
         <br></br>
@@ -72,9 +72,9 @@ export default function Vignette() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>PLAN VIEW</h2>
+            <h2 className="title-font">PLAN VIEW</h2>
             <br></br>
-            <p>FREEHAND DRAWING</p>
+            <p className="paragraph-font">FREEHAND DRAWING</p>
           </div>
         </div>
         <br></br>
@@ -84,9 +84,9 @@ export default function Vignette() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>ELEVATIONS</h2>
+            <h2 className="title-font">ELEVATIONS</h2>
             <br></br>
-            <p>FREEHAND DRAWING</p>
+            <p className="paragraph-font">FREEHAND DRAWING</p>
           </div>
         </div>
         <br></br>
@@ -96,9 +96,9 @@ export default function Vignette() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>PERSPECTIVE</h2>
+            <h2 className="title-font">PERSPECTIVE</h2>
             <br></br>
-            <p>FREEHAND DRAWING</p>
+            <p className="paragraph-font">FREEHAND DRAWING</p>
           </div>
         </div>
         <br></br>
@@ -108,9 +108,9 @@ export default function Vignette() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>PERSPECTIVE</h2>
+            <h2 className="title-font">PERSPECTIVE</h2>
             <br></br>
-            <p>VALUE & SHADOW</p>
+            <p className="paragraph-font">VALUE & SHADOW</p>
           </div>
         </div>
         <br></br>

@@ -5,7 +5,7 @@ export default function Moods() {
   return (
     <div>
       <br></br>
-      <h1>MOOD BOARDS</h1>
+      <h1 className="title-font">MOOD BOARDS</h1>
       <br></br>
       <div class="container text-center">
         <div class="row">
@@ -14,11 +14,11 @@ export default function Moods() {
           </div>
           <div class="col-4" id="intro-text">
             <br></br>
-            <h2>EAST COAST COTTAGE</h2>
+            <h2 className="title-font">EAST COAST COTTAGE</h2>
             <br></br>
-            <p>DEVELOPED IN PHOTOSHOP</p>
-            <p>INT 122 - DIGITAL VISUALIZATION</p>
-            <p>MARCH 2022</p>
+            <p className="paragraph-font">DEVELOPED IN PHOTOSHOP</p>
+            <p className="paragraph-font">INT 122 - DIGITAL VISUALIZATION</p>
+            <p className="paragraph-font">MARCH 2022</p>
           </div>
         </div>
       </div>

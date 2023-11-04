@@ -5,7 +5,7 @@ export default function SpacePlans() {
   return (
     <div>
       <br></br>
-      <h1>SPACE PLANS</h1>
+      <h1 className="title-font">SPACE PLANS</h1>
       <br></br>
       <div class="container text-center">
         <div class="row">
@@ -14,11 +14,11 @@ export default function SpacePlans() {
           </div>
           <div class="col-4">
             <br></br>
-            <h2>PUBLIC LIBRARY</h2>
+            <h2 className="title-font">PUBLIC LIBRARY</h2>
             <br></br>
-            <p>FREEHAND WITH PEN</p>
-            <p>INT 145 - DRAWING AND SKETCHING</p>
-            <p>JULY 2022</p>
+            <p className="paragraph-font">FREEHAND WITH PEN</p>
+            <p className="paragraph-font">INT 145 - DRAWING AND SKETCHING</p>
+            <p className="paragraph-font">JULY 2022</p>
           </div>
         </div>
         <br></br>
@@ -28,11 +28,11 @@ export default function SpacePlans() {
           </div>
           <div class="col-4">
             <br></br>
-            <h2>VIGNETTE</h2>
+            <h2 className="title-font">VIGNETTE</h2>
             <br></br>
-            <p>FREEHAND WITH PEN</p>
-            <p>INT 145 - DRAWING AND SKETCHING</p>
-            <p>JULY 2022</p>
+            <p className="paragraph-font">FREEHAND WITH PEN</p>
+            <p className="paragraph-font">INT 145 - DRAWING AND SKETCHING</p>
+            <p className="paragraph-font">JULY 2022</p>
           </div>
         </div>
         <br></br>
@@ -42,11 +42,11 @@ export default function SpacePlans() {
           </div>
           <div class="col-4">
             <br></br>
-            <h2>PRESENTATION DRAWING</h2>
+            <h2 className="title-font">PRESENTATION DRAWING</h2>
             <br></br>
-            <p>FREEHAND WITH PEN</p>
-            <p>INT 145 - DRAWING AND SKETCHING</p>
-            <p>JUNE 2022</p>
+            <p className="paragraph-font">FREEHAND WITH PEN</p>
+            <p className="paragraph-font">INT 145 - DRAWING AND SKETCHING</p>
+            <p className="paragraph-font">JUNE 2022</p>
           </div>
         </div>
         <br></br>
@@ -56,11 +56,11 @@ export default function SpacePlans() {
           </div>
           <div class="col-4">
             <br></br>
-            <h2>GUEST SUITE</h2>
+            <h2 className="title-font">GUEST SUITE</h2>
             <br></br>
-            <p>FREEHAND WITH PEN</p>
-            <p>INT 190 - SPACE PLANNING</p>
-            <p>FEBRUARY 2023</p>
+            <p className="paragraph-font">FREEHAND WITH PEN</p>
+            <p className="paragraph-font">INT 190 - SPACE PLANNING</p>
+            <p className="paragraph-font">FEBRUARY 2023</p>
           </div>
         </div>
         <br></br>
@@ -70,11 +70,11 @@ export default function SpacePlans() {
           </div>
           <div class="col-4">
             <br></br>
-            <h2>NURSERY</h2>
+            <h2 className="title-font">NURSERY</h2>
             <br></br>
-            <p>FREEHAND WITH PEN</p>
-            <p>INT 190 - SPACE PLANNING</p>
-            <p>FEBRUARY 2023</p>
+            <p className="paragraph-font">FREEHAND WITH PEN</p>
+            <p className="paragraph-font">INT 190 - SPACE PLANNING</p>
+            <p className="paragraph-font">FEBRUARY 2023</p>
           </div>
         </div>
         <br></br>
@@ -84,11 +84,11 @@ export default function SpacePlans() {
           </div>
           <div class="col-4">
             <br></br>
-            <h2>LIVING & DINING - “A”</h2>
+            <h2 className="title-font">LIVING & DINING - “A”</h2>
             <br></br>
-            <p>FREEHAND WITH PEN</p>
-            <p>INT 190 - SPACE PLANNING</p>
-            <p>FEBRUARY 2023</p>
+            <p className="paragraph-font">FREEHAND WITH PEN</p>
+            <p className="paragraph-font">INT 190 - SPACE PLANNING</p>
+            <p className="paragraph-font">FEBRUARY 2023</p>
           </div>
         </div>
         <br></br>
@@ -98,11 +98,11 @@ export default function SpacePlans() {
           </div>
           <div class="col-4">
             <br></br>
-            <h2>LIVING & DINING - “B”</h2>
+            <h2 className="title-font">LIVING & DINING - “B”</h2>
             <br></br>
-            <p>FREEHAND WITH PEN</p>
-            <p>INT 190 - SPACE PLANNING</p>
-            <p>FEBRUARY 2023</p>
+            <p className="paragraph-font">FREEHAND WITH PEN</p>
+            <p className="paragraph-font">INT 190 - SPACE PLANNING</p>
+            <p className="paragraph-font">FEBRUARY 2023</p>
           </div>
         </div>
         <br></br>
